@@ -1,1 +1,3 @@
 # Expected-Goals-xG-Model
+
+It uses a logistic regression model to predict the probability of a shot resulting in a goal (xG) using match event data. After the necessary data cleaning and pre-processing, a feature for shot distance (Euclidean distance from the goal) has been included to improve the model performance and interpretability following which the Log Loss, ROC AUC and Brier Score on the test set has been achieved. Moreover, shot locations have been visualized using seaborn and mplsoccer, highlighting goal outcomes and xG values with a custom color gradient and enhanced interpretability with a colour bar for xG (expected goals) values and clear shot location markers. 
